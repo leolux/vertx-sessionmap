@@ -11,5 +11,5 @@ if (sessionMap == null) {
   sessionMap = new SessionMap(localMap, sessionId, vertx);
   localMap.put(sessionId, sessionMap);
 }
-localMap.put("key","value");
+sessionMap.put("key","value");
 ``` 
